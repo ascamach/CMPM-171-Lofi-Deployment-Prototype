@@ -42,6 +42,7 @@ jobs:
         with:
           projectPath: CMPM 171 LoFi Deploment Prototype
           targetPlatform: WebGL
+          allowDirtyBuild: true
 
       # Output
       - uses: actions/upload-artifact@v3
